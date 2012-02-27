@@ -3,18 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>describe ${1:`pbpaste`} do
-  ${2:it "should ${3:description}" do
-    $0
-  end}
+	<string>describe "#${1:`pbpaste`}" do
+  $0
 end</string>
 	<key>name</key>
-	<string>describe (type)</string>
+	<string>describe (#method)</string>
 	<key>scope</key>
 	<string>source.ruby.rspec</string>
 	<key>tabTrigger</key>
-	<string>dest</string>
+	<string>desm</string>
 	<key>uuid</key>
-	<string>2ED94046-DAF7-4C91-8D98-771513BB3804</string>
+	<string>F82FC3E5-A05D-49CB-9D26-76728E20C603</string>
 </dict>
 </plist>
