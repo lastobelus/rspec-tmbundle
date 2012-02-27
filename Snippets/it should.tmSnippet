@@ -11,7 +11,7 @@ end}</string>
 	<key>scope</key>
 	<string>source.ruby.rspec</string>
 	<key>tabTrigger</key>
-	<string>its</string>
+	<string>itsh</string>
 	<key>uuid</key>
 	<string>ED8BDE00-5FD7-4E47-84FD-4B971557FD73</string>
 </dict>
