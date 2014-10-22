@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:target}.should_not =~ /${2:regexp}/
+	<string>expect(${1:target}).not_to match(/${2:regexp}/)
 $0</string>
 	<key>name</key>
-	<string>should_not =~</string>
+	<string>expect not_to match</string>
 	<key>scope</key>
 	<string>source.ruby.rspec</string>
 	<key>tabTrigger</key>
-	<string>shnm</string>
+	<string>xnm</string>
 	<key>uuid</key>
 	<string>7563CED5-5FD8-454C-972C-AC240D549E8B</string>
 </dict>

@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:target}.should have_at_most(${2:num}).${3:things}
+	<string>expect(${1:obj}).to have_at_most(${2:num}).${3:items}
 $0</string>
 	<key>name</key>
-	<string>should have_at_most</string>
+	<string>expect to have_at_most</string>
 	<key>scope</key>
 	<string>source.ruby.rspec</string>
 	<key>tabTrigger</key>
-	<string>shham</string>
+	<string>xham</string>
 	<key>uuid</key>
 	<string>1BE271C6-3310-46A8-83E1-88C45BBE27AC</string>
 </dict>

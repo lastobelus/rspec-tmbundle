@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:target}.should == ${2:value}
+	<string>expect(${1:target}).to eq(${2:value})
 $0</string>
 	<key>name</key>
-	<string>should ==</string>
+	<string>expect eq</string>
 	<key>scope</key>
 	<string>source.ruby.rspec</string>
 	<key>tabTrigger</key>
-	<string>sh=</string>
+	<string>x=</string>
 	<key>uuid</key>
 	<string>AF99B458-D589-414D-87C7-8FACD2EF9FD5</string>
 </dict>

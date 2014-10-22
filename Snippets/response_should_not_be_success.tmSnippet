@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>response.should_not be_success
+	<string>expect(response).not_to be_success
 $0</string>
 	<key>name</key>
-	<string>should_not be_success</string>
+	<string>expect not_to be_success</string>
 	<key>scope</key>
 	<string>source.ruby.rspec</string>
 	<key>tabTrigger</key>
-	<string>shnbs</string>
+	<string>xnbs</string>
 	<key>uuid</key>
 	<string>8303E848-4F07-4D3C-98FA-19DA4676812E</string>
 </dict>

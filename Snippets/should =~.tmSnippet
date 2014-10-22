@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:target}.should =~ /${2:regexp}/
+	<string>expect(${1:target}).to match(/${2:regexp}/)
 $0</string>
 	<key>name</key>
-	<string>should =~</string>
+	<string>expect match</string>
 	<key>scope</key>
 	<string>source.ruby.rspec</string>
 	<key>tabTrigger</key>
-	<string>shm</string>
+	<string>xm</string>
 	<key>uuid</key>
 	<string>0BD5A07E-5FB3-44A3-991F-ABA04BA632D7</string>
 </dict>

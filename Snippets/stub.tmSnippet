@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:double}.stub(:${2:message})$3</string>
+	<string>allow(${1:double}).to receive(:${2:message})$3</string>
 	<key>name</key>
 	<string>stub</string>
 	<key>scope</key>
